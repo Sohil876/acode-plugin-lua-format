@@ -1,0 +1,14 @@
+{
+    "id": "acode.plugin.lua.format",
+    "name": "Lua-Format",
+    "main": "dist/main.js",
+    "version": "1.0.0",
+    "readme": "readme.md",
+    "icon": "icon.png",
+    "files": [],
+    "author": {
+        "name": "Arsh Khan (Sohil876)",
+        "email": "sohil876@gmail.com",
+        "github": "https://github.com/Sohil876"
+    }
+}
