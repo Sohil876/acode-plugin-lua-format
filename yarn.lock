@@ -2364,10 +2364,9 @@ lodash.debounce@^4.0.8:
   resolved "https://registry.yarnpkg.com/lodash.debounce/-/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
   integrity sha512-FT1yDzDYEoYWhnSGnpE/4Kj1fLZkDFyqRb7fNt6FdYOSxlUWAtp42Eh6Wb0rGIv/m9Bgo7x4GhQbm5Ys4SG5ow==
 
-lua-format@^1.4.0:
+"lua-format@git+https://github.com/miscdevstuff/luamin.js.git#master":
   version "1.4.0"
-  resolved "https://registry.yarnpkg.com/lua-format/-/lua-format-1.4.0.tgz#763a4ace341a631a396fc706f804eb45c5adf1df"
-  integrity sha512-GP5CFcdgop02HgsPnw0p1FeC41FmMdoexgnvDtS2TlqNh4oWuN0piyyEsgOrlN1rAfOHdhjmeTtl7H/lgCgOqA==
+  resolved "git+https://github.com/miscdevstuff/luamin.js.git#f2c7b952e7db4f40ff12553d39cbcc431295a354"
 
 make-dir@^2.1.0:
   version "2.1.0"

@@ -1,14 +1,14 @@
 {
     "name": "acode-lua-format",
     "version": "1.0.0",
-    "description": "Lua Beautifier & Minifier, written in JavaScript.",
+    "description": "Lua Formatter, supports Lua 5.1 - 5.4.",
     "main": "dist/main.js",
     "repository": "https://github.com/Sohil876/acode-plugin-lua-format.git",
     "author": "Sohil876 <sohil876@gmail.com>",
     "license": "MIT",
     "dependencies": {
         "html-tag-js": "^1.1.22",
-        "lua-format": "^1.4.0"
+        "lua-format": "git+https://github.com/miscdevstuff/luamin.js.git#master"
     },
     "devDependencies": {
         "@babel/cli": "^7.18.10",
