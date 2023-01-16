@@ -5,7 +5,7 @@ Using [luamin.js](https://github.com/Herrtt/luamin.js)
 
 ### Installation
 
-For now just paste [this](https://raw.githubusercontent.com/Sohil876/acode-plugin-lua-format/main/) in `Acode > Settings > Plugins > Remote`
+For now, download dist.zip from this repo, go to `Acode > Settings > Plugins > Local` to browse and select dist.zip and click install. 
 
 ### License
 
