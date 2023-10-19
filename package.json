@@ -1,6 +1,6 @@
 {
     "name": "acode-lua-format",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Lua Formatter, supports Lua 5.1 - 5.4.",
     "main": "dist/main.js",
     "repository": "https://github.com/Sohil876/acode-plugin-lua-format.git",
