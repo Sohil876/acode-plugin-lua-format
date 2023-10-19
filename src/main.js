@@ -1,5 +1,5 @@
 import plugin from "../plugin.json";
-const luamin = require("lua-format");
+const { Beautify } = require("lua-format");
 
 const pluginId = plugin.id;
 const appSettings = acode.require("settings");
@@ -44,8 +44,7 @@ class AcodeLuaFormat {
             filepath: activeFile.name,
             tabWidth: appSettings.value.tabSize,
         };
-        const res = luamin.Beautify(code, formatterSettings);
-        this.#setValue(session, res);
+        this.#setValue(session, await Beautify(code, formatterSettings));
     }
 
     async destroy() {
